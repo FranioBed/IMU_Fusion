@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Prio">
+      <UniqueIdentifier>{a6eef26c-66d3-4c6a-9fc5-23f01ff9e0dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Skeleton">
+      <UniqueIdentifier>{54016c6f-41e9-474d-a47b-aaa4caaa8958}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Prio">
+      <UniqueIdentifier>{d2c29d75-54e4-4909-ab5a-9ecdfdf7e1c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utils">
+      <UniqueIdentifier>{67e7d4c2-578a-4c73-ae2a-6fc09987eebc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils">
+      <UniqueIdentifier>{c8ed233b-5d8b-432b-8252-d499aa6e9a90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utils\YEI">
+      <UniqueIdentifier>{d73af45b-4944-4b89-a6c0-3506dd9d489a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utils\Serial">
+      <UniqueIdentifier>{c5f79a38-b34e-4d69-8bce-db8e2c5742fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils\Serial">
+      <UniqueIdentifier>{fcacfcd8-981f-4b82-898c-1e8cd64b83d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils\YEI">
+      <UniqueIdentifier>{05416e3f-981f-48c8-a0a2-bf57d6d54e0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utils\Serial\impl">
+      <UniqueIdentifier>{dda8526b-71f4-4e68-9ef5-6619f00b7cfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils\Serial\impl">
+      <UniqueIdentifier>{074a19a1-bd41-46e0-8bab-70572e23cbfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utils\rapidxml">
+      <UniqueIdentifier>{34d4c265-60c0-4fbb-974e-71003d1abdf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\TSS">
+      <UniqueIdentifier>{8f72dd32-f94f-491c-b051-207dec5f3778}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TSS">
+      <UniqueIdentifier>{03cbec1e-a2ae-495a-bb6b-d3c1474811d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Skeleton">
+      <UniqueIdentifier>{a0e62684-403b-4f94-8aed-30c8e8ef6445}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Utils\Serial\include\impl\unix.h">
+      <Filter>Header Files\Utils\Serial\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Utils\Serial\include\impl\win.h">
+      <Filter>Header Files\Utils\Serial\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Utils\Serial\include\serial.h">
+      <Filter>Header Files\Utils\Serial</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Utils\Serial\include\serial_enumerator.hpp">
+      <Filter>Header Files\Utils\Serial</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Utils\rapidxml\rapidxml.hpp">
+      <Filter>Header Files\Utils\rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Utils\rapidxml\rapidxml_iterators.hpp">
+      <Filter>Header Files\Utils\rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Utils\rapidxml\rapidxml_print.hpp">
+      <Filter>Header Files\Utils\rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Utils\rapidxml\rapidxml_utils.hpp">
+      <Filter>Header Files\Utils\rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Prio_API\include\prio_device.hpp">
+      <Filter>Header Files\Prio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Prio_API\include\prio_basestation.hpp">
+      <Filter>Header Files\Prio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Prio_API\include\prio_hub.hpp">
+      <Filter>Header Files\Prio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Prio_API\include\prio_api.hpp">
+      <Filter>Header Files\Prio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Prio_API\include\prio_api_export.h">
+      <Filter>Header Files\Prio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\TSS_API_NEW\include\threespace_api.hpp">
+      <Filter>Header Files\TSS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\TSS_API_NEW\include\threespace_api_export.h">
+      <Filter>Header Files\TSS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\TSS_API_NEW\include\threespace_device.hpp">
+      <Filter>Header Files\TSS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\TSS_API_NEW\include\threespace_dongle.hpp">
+      <Filter>Header Files\TSS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Skeleton_API\include\yost_connection_processor.hpp">
+      <Filter>Header Files\Skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Skeleton_API\include\yost_pedestrian_tracking_processor.hpp">
+      <Filter>Header Files\Skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Skeleton_API\include\yost_skeleton_api.h">
+      <Filter>Header Files\Skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Skeleton_API\include\yost_skeleton_core_api.hpp">
+      <Filter>Header Files\Skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Skeleton_API\include\yost_skeleton_processor.hpp">
+      <Filter>Header Files\Skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Skeleton_API\include\yost_tss_connection_processor.hpp">
+      <Filter>Header Files\Skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Utils\YEI\include\yost_math.hpp">
+      <Filter>Header Files\Utils\YEI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Utils\YEI\include\yost_core_api.hpp">
+      <Filter>Header Files\Utils\YEI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\TSS_API_NEW\include\threespace_sensor.hpp">
+      <Filter>Header Files\TSS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Skeleton_API\include\yost_smoothing_processor.hpp">
+      <Filter>Header Files\Skeleton</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\Utils\Serial\src\impl\unix.cc">
+      <Filter>Source Files\Utils\Serial\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Utils\Serial\src\impl\win.cc">
+      <Filter>Source Files\Utils\Serial\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Utils\Serial\src\serial.cc">
+      <Filter>Source Files\Utils\Serial</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Utils\Serial\src\serial_enumerator.cpp">
+      <Filter>Source Files\Utils\Serial</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Utils\Serial\src\serial_enumerator_linux.cpp">
+      <Filter>Source Files\Utils\Serial</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Utils\Serial\src\serial_enumerator_osx.cpp">
+      <Filter>Source Files\Utils\Serial</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Utils\Serial\src\serial_enumerator_win.cpp">
+      <Filter>Source Files\Utils\Serial</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Prio_API\src\prio_device.cpp">
+      <Filter>Source Files\Prio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Prio_API\src\prio_basestation.cpp">
+      <Filter>Source Files\Prio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Prio_API\src\prio_hub.cpp">
+      <Filter>Source Files\Prio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Prio_API\src\prio_api.cpp">
+      <Filter>Source Files\Prio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Prio_API\src\prio_api_export.cpp">
+      <Filter>Source Files\Prio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\TSS_API_NEW\src\threespace_api.cpp">
+      <Filter>Source Files\TSS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\TSS_API_NEW\src\threespace_api_export.cpp">
+      <Filter>Source Files\TSS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\TSS_API_NEW\src\threespace_device.cpp">
+      <Filter>Source Files\TSS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\TSS_API_NEW\src\threespace_dongle.cpp">
+      <Filter>Source Files\TSS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\TSS_API_NEW\src\threespace_sensor.cpp">
+      <Filter>Source Files\TSS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Utils\YEI\src\yost_math.cpp">
+      <Filter>Source Files\Utils\YEI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Utils\YEI\src\yost_core_api.cpp">
+      <Filter>Source Files\Utils\YEI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Skeleton_API\src\yost_tss_connection_processor.cpp">
+      <Filter>Source Files\Skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Skeleton_API\src\yost_skeleton_processor.cpp">
+      <Filter>Source Files\Skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Skeleton_API\src\yost_skeleton_core_api.cpp">
+      <Filter>Source Files\Skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Skeleton_API\src\yost_skeleton_api.cpp">
+      <Filter>Source Files\Skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Skeleton_API\src\yost_pedestrian_tracking_processor.cpp">
+      <Filter>Source Files\Skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Skeleton_API\src\yost_connection_processor.cpp">
+      <Filter>Source Files\Skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Skeleton_API\src\yost_smoothing_processor.cpp">
+      <Filter>Source Files\Skeleton</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

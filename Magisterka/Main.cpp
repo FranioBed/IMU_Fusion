@@ -120,7 +120,7 @@ void ComplementaryFilter(float accData[3], float gyrData[3], float *theta, float
 
 int main()
 {
-	std::ifstream       file("csv/Pendulum_Test03_Trial1_Segment_1.csv");
+	std::ifstream file("csv/Pendulum_Test03_Trial1_Segment_1.csv");
 
 	/*CSVRow              row;
 	while (file >> row)

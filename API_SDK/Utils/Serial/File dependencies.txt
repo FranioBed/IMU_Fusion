@@ -1,0 +1,13 @@
+Windows:
+    Linker dependencies:
+        - setupapi
+        - bthprops // For Bluetooth comparison
+================================================================================
+Linux:
+    Linker dependencies:
+        - udev
+================================================================================
+OSX:
+    Linker dependencies:
+        - framework IOKit
+        - framework CoreFoundation

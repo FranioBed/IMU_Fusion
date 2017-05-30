@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Utils">
+      <UniqueIdentifier>{faa77200-4981-4546-9067-4d8994a1fa4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utils\YEI">
+      <UniqueIdentifier>{b7488a28-6390-4715-b683-165d7c3d79c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utils\Serial">
+      <UniqueIdentifier>{f09d2d18-ff69-4281-ad3f-b2fe609b877a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utils\Serial\impl">
+      <UniqueIdentifier>{b8cfc57f-3af8-4bbb-a2a6-830a5fb0bdaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils">
+      <UniqueIdentifier>{856398d5-4072-4738-8e86-bc65ac72e311}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils\YEI">
+      <UniqueIdentifier>{7d4c6ed3-04c0-4c17-8a12-8a6096e84832}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils\Serial">
+      <UniqueIdentifier>{ab0fe298-be0a-44b9-ac24-503f52b48ec7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils\Serial\impl">
+      <UniqueIdentifier>{9c017596-0444-4822-918e-237637c90d2d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\TSS_API\include\threespace_api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Utils\YEI\include\yei_core_api.hpp">
+      <Filter>Header Files\Utils\YEI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Utils\Serial\include\serial.h">
+      <Filter>Header Files\Utils\Serial</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Utils\Serial\include\serial_enumerator.hpp">
+      <Filter>Header Files\Utils\Serial</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Utils\Serial\include\impl\unix.h">
+      <Filter>Header Files\Utils\Serial\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Utils\Serial\include\impl\win.h">
+      <Filter>Header Files\Utils\Serial\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\TSS_API\include\threespace_core_api.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\TSS_API\src\threespace_api.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\TSS_API\src\threespace_core_api.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Utils\YEI\src\yei_core_api.cpp">
+      <Filter>Source Files\Utils\YEI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Utils\Serial\src\serial.cc">
+      <Filter>Source Files\Utils\Serial</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Utils\Serial\src\serial_enumerator.cpp">
+      <Filter>Source Files\Utils\Serial</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Utils\Serial\src\serial_enumerator_linux.cpp">
+      <Filter>Source Files\Utils\Serial</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Utils\Serial\src\serial_enumerator_osx.cpp">
+      <Filter>Source Files\Utils\Serial</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Utils\Serial\src\serial_enumerator_win.cpp">
+      <Filter>Source Files\Utils\Serial</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Utils\Serial\src\impl\unix.cc">
+      <Filter>Source Files\Utils\Serial\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Utils\Serial\src\impl\win.cc">
+      <Filter>Source Files\Utils\Serial\impl</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

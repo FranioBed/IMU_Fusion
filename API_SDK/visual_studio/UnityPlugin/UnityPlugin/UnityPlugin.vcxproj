@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B6BCE6B8-C0E7-4D0F-A6F7-CE3E02820C31}</ProjectGuid>
+    <RootNamespace>UnityPlugin</RootNamespace>
+    <ProjectName>YEI_Plugin</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>..\..\bin\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>bin\$(Platform)\$(Configuration)\</IntDir>
+    <TargetName>YOSTSkeletonPlugin_$(Platform)</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>..\..\bin\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>bin\$(Platform)\$(Configuration)\</IntDir>
+    <TargetName>YOSTSkeletonPlugin_$(Platform)</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>..\..\bin\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>bin\$(Platform)\$(Configuration)\</IntDir>
+    <TargetName>YOSTSkeletonPlugin_$(Platform)</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>..\..\bin\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>bin\$(Platform)\$(Configuration)\</IntDir>
+    <TargetName>YOSTSkeletonPlugin_$(Platform)</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>..\..\..\Utils;..\..\..\Utils\Serial\include;..\..\..\Utils\YEI\include;..\..\..\TSS_API_NEW\include;..\..\..\Prio_API\include;..\..\..\Skeleton_API\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_UNITY_PLUGIN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\..\bin\$(Platform)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>setupapi.lib;bthprops.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>..\..\..\Utils;..\..\..\Utils\Serial\include;..\..\..\Utils\YEI\include;..\..\..\TSS_API_NEW\include;..\..\..\Prio_API\include;..\..\..\Skeleton_API\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_UNITY_PLUGIN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\..\bin\$(Platform)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>setupapi.lib;bthprops.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>..\..\..\Utils;..\..\..\Utils\Serial\include;..\..\..\Utils\YEI\include;..\..\..\TSS_API_NEW\include;..\..\..\Prio_API\include;..\..\..\Skeleton_API\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_UNITY_PLUGIN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>..\..\bin\$(Platform)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>setupapi.lib;bthprops.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>..\..\..\Utils;..\..\..\Utils\Serial\include;..\..\..\Utils\YEI\include;..\..\..\TSS_API_NEW\include;..\..\..\Prio_API\include;..\..\..\Skeleton_API\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_UNITY_PLUGIN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>..\..\bin\$(Platform)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>setupapi.lib;bthprops.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Prio_API\include\prio_api.hpp" />
+    <ClInclude Include="..\..\..\Prio_API\include\prio_api_export.h" />
+    <ClInclude Include="..\..\..\Prio_API\include\prio_basestation.hpp" />
+    <ClInclude Include="..\..\..\Prio_API\include\prio_device.hpp" />
+    <ClInclude Include="..\..\..\Prio_API\include\prio_hub.hpp" />
+    <ClInclude Include="..\..\..\Skeleton_API\include\yost_connection_processor.hpp" />
+    <ClInclude Include="..\..\..\Skeleton_API\include\yost_pedestrian_tracking_processor.hpp" />
+    <ClInclude Include="..\..\..\Skeleton_API\include\yost_skeleton_api.h" />
+    <ClInclude Include="..\..\..\Skeleton_API\include\yost_skeleton_core_api.hpp" />
+    <ClInclude Include="..\..\..\Skeleton_API\include\yost_skeleton_processor.hpp" />
+    <ClInclude Include="..\..\..\Skeleton_API\include\yost_smoothing_processor.hpp" />
+    <ClInclude Include="..\..\..\Skeleton_API\include\yost_tss_connection_processor.hpp" />
+    <ClInclude Include="..\..\..\TSS_API_NEW\include\threespace_api.hpp" />
+    <ClInclude Include="..\..\..\TSS_API_NEW\include\threespace_api_export.h" />
+    <ClInclude Include="..\..\..\TSS_API_NEW\include\threespace_device.hpp" />
+    <ClInclude Include="..\..\..\TSS_API_NEW\include\threespace_dongle.hpp" />
+    <ClInclude Include="..\..\..\TSS_API_NEW\include\threespace_sensor.hpp" />
+    <ClInclude Include="..\..\..\Utils\rapidxml\rapidxml.hpp" />
+    <ClInclude Include="..\..\..\Utils\rapidxml\rapidxml_iterators.hpp" />
+    <ClInclude Include="..\..\..\Utils\rapidxml\rapidxml_print.hpp" />
+    <ClInclude Include="..\..\..\Utils\rapidxml\rapidxml_utils.hpp" />
+    <ClInclude Include="..\..\..\Utils\Serial\include\impl\unix.h" />
+    <ClInclude Include="..\..\..\Utils\Serial\include\impl\win.h" />
+    <ClInclude Include="..\..\..\Utils\Serial\include\serial.h" />
+    <ClInclude Include="..\..\..\Utils\Serial\include\serial_enumerator.hpp" />
+    <ClInclude Include="..\..\..\Utils\YEI\include\yost_core_api.hpp" />
+    <ClInclude Include="..\..\..\Utils\YEI\include\yost_math.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\Prio_API\src\prio_api.cpp" />
+    <ClCompile Include="..\..\..\Prio_API\src\prio_basestation.cpp" />
+    <ClCompile Include="..\..\..\Prio_API\src\prio_device.cpp" />
+    <ClCompile Include="..\..\..\Prio_API\src\prio_hub.cpp" />
+    <ClCompile Include="..\..\..\Prio_API\src\prio_api_export.cpp" />
+    <ClCompile Include="..\..\..\Skeleton_API\src\yost_connection_processor.cpp" />
+    <ClCompile Include="..\..\..\Skeleton_API\src\yost_pedestrian_tracking_processor.cpp" />
+    <ClCompile Include="..\..\..\Skeleton_API\src\yost_skeleton_api.cpp" />
+    <ClCompile Include="..\..\..\Skeleton_API\src\yost_skeleton_core_api.cpp" />
+    <ClCompile Include="..\..\..\Skeleton_API\src\yost_skeleton_processor.cpp" />
+    <ClCompile Include="..\..\..\Skeleton_API\src\yost_smoothing_processor.cpp" />
+    <ClCompile Include="..\..\..\Skeleton_API\src\yost_tss_connection_processor.cpp" />
+    <ClCompile Include="..\..\..\TSS_API_NEW\src\threespace_api.cpp" />
+    <ClCompile Include="..\..\..\TSS_API_NEW\src\threespace_api_export.cpp" />
+    <ClCompile Include="..\..\..\TSS_API_NEW\src\threespace_device.cpp" />
+    <ClCompile Include="..\..\..\TSS_API_NEW\src\threespace_dongle.cpp" />
+    <ClCompile Include="..\..\..\TSS_API_NEW\src\threespace_sensor.cpp" />
+    <ClCompile Include="..\..\..\Utils\Serial\src\impl\unix.cc" />
+    <ClCompile Include="..\..\..\Utils\Serial\src\impl\win.cc" />
+    <ClCompile Include="..\..\..\Utils\Serial\src\serial.cc" />
+    <ClCompile Include="..\..\..\Utils\Serial\src\serial_enumerator.cpp" />
+    <ClCompile Include="..\..\..\Utils\Serial\src\serial_enumerator_linux.cpp" />
+    <ClCompile Include="..\..\..\Utils\Serial\src\serial_enumerator_osx.cpp" />
+    <ClCompile Include="..\..\..\Utils\Serial\src\serial_enumerator_win.cpp" />
+    <ClCompile Include="..\..\..\Utils\YEI\src\yost_core_api.cpp" />
+    <ClCompile Include="..\..\..\Utils\YEI\src\yost_math.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

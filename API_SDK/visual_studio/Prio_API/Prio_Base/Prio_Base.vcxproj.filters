@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Utils">
+      <UniqueIdentifier>{e55b2223-1471-4d3f-8baa-269ff8c9edfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utils\Serial">
+      <UniqueIdentifier>{9bf5089d-a989-4745-81de-80f923ae28b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utils\YEI">
+      <UniqueIdentifier>{bbeb1492-56ca-4c54-888e-9931d85ccba8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utils\Serial\impl">
+      <UniqueIdentifier>{e6d6a2fc-44f8-4737-aa30-49fadec827ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils">
+      <UniqueIdentifier>{ee799564-22e1-4e53-bfc7-282c6a70d796}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils\YEI">
+      <UniqueIdentifier>{afb709cb-839a-4548-99a9-46106a181fc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils\Serial">
+      <UniqueIdentifier>{f1250cad-d21a-4a68-93b9-00b451be8a28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils\Serial\impl">
+      <UniqueIdentifier>{b309dd75-79e9-466f-8db4-d60599df9ad7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utils\rapidxml">
+      <UniqueIdentifier>{ee35b602-058b-4f10-b528-a77041dda993}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Utils\Serial\include\serial.h">
+      <Filter>Header Files\Utils\Serial</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Utils\Serial\include\serial_enumerator.hpp">
+      <Filter>Header Files\Utils\Serial</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Utils\Serial\include\impl\unix.h">
+      <Filter>Header Files\Utils\Serial\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Utils\Serial\include\impl\win.h">
+      <Filter>Header Files\Utils\Serial\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Prio_API\include\prio_basestation.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Prio_API\include\prio_device.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Prio_API\include\prio_hub.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Prio_API\include\prio_api.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Prio_API\include\prio_api_export.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Utils\YEI\include\yost_core_api.hpp">
+      <Filter>Header Files\Utils\YEI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Utils\YEI\include\yost_math.hpp">
+      <Filter>Header Files\Utils\YEI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Utils\rapidxml\rapidxml.hpp">
+      <Filter>Header Files\Utils\rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Utils\rapidxml\rapidxml_iterators.hpp">
+      <Filter>Header Files\Utils\rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Utils\rapidxml\rapidxml_print.hpp">
+      <Filter>Header Files\Utils\rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Utils\rapidxml\rapidxml_utils.hpp">
+      <Filter>Header Files\Utils\rapidxml</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\Utils\Serial\src\serial.cc">
+      <Filter>Source Files\Utils\Serial</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Utils\Serial\src\serial_enumerator.cpp">
+      <Filter>Source Files\Utils\Serial</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Utils\Serial\src\serial_enumerator_linux.cpp">
+      <Filter>Source Files\Utils\Serial</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Utils\Serial\src\serial_enumerator_osx.cpp">
+      <Filter>Source Files\Utils\Serial</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Utils\Serial\src\serial_enumerator_win.cpp">
+      <Filter>Source Files\Utils\Serial</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Utils\Serial\src\impl\unix.cc">
+      <Filter>Source Files\Utils\Serial\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Utils\Serial\src\impl\win.cc">
+      <Filter>Source Files\Utils\Serial\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Prio_API\src\prio_basestation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Prio_API\src\prio_device.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Prio_API\src\prio_hub.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Prio_API\src\win.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Prio_API\src\prio_api_export.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Prio_API\src\prio_api.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Utils\YEI\src\yost_core_api.cpp">
+      <Filter>Source Files\Utils\YEI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Utils\YEI\src\yost_math.cpp">
+      <Filter>Source Files\Utils\YEI</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
