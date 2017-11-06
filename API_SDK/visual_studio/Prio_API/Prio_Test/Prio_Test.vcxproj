@@ -114,7 +114,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN64;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>C:\Users\YEI\Desktop\PrioVRNew\API_SDK\Utils;C:\Users\YEI\Desktop\PrioVRNew\API_SDK\Utils\YEI\include;C:\Users\YEI\Desktop\PrioVRNew\API_SDK\Utils\Serial\include;C:\Users\YEI\Desktop\PrioVRNew\API_SDK\Prio_API\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Programowanie\Magisterka\API_SDK\Utils;C:\Programowanie\Magisterka\API_SDK\Utils\YEI\include;C:\Programowanie\Magisterka\API_SDK\Utils\Serial\include;C:\Programowanie\Magisterka\API_SDK\Prio_API\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

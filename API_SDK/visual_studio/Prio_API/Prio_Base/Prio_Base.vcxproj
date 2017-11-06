@@ -137,7 +137,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>..\..\..\Utils;..\..\..\\Serial\include;..\..\..\Utils\YEI\include;..\..\..\Prio_API\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Programowanie\Magisterka\API_SDK\Utils;C:\Programowanie\Magisterka\API_SDK\Utils\Serial\include;C:\Programowanie\Magisterka\API_SDK\Utils\YEI\include;C:\Programowanie\Magisterka\API_SDK\Prio_API\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>

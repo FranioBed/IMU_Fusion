@@ -89,8 +89,8 @@
       <AdditionalIncludeDirectories>C:\Programowanie\Git\IMU_Fusion\API_SDK\Prio_API\include;C:\Programowanie\Git\IMU_Fusion\API_SDK\Utils\YEI\include;C:\Programowanie\Git\IMU_Fusion\API_SDK\Utils\Serial\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
-      <AdditionalLibraryDirectories>C:\Programowanie\Git\IMU_Fusion\API_SDK\visual_studio\bin\Win32\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>Prio_API_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Programowanie\Git\IMU_Fusion\API_SDK\visual_studio\bin\x64\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Prio_API_64.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
